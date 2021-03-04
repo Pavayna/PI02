@@ -141,7 +141,7 @@ void loop() {
 
     ev=vconsigne-vmesure;
     //v=v1-2.061e-9*v2+9.686e6*e-1.934e7*e1+9.655e6*e2;
-    tetar=-0.0152*ev1+0.01495*ev2+1.937*tetar1+0.937*tetar2;
+    tetar=-0.0152*ev1+0.01495*ev2+1.937*tetar1-0.937*tetar2;
     
     ev2=ev1;
     ev1=ev;

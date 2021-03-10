@@ -49,10 +49,6 @@ void loop() {
 
 
 
-  runMotors(20,20);
-
-  delay(1);
-  Serial.println(count/(2*150.58));
 
 
 }
